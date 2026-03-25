@@ -74,8 +74,7 @@ studies-about-internet/
 No dependencies or frameworks required. Just clone the repository and open any `.html` file in your browser.
 
 ```bash
-git clone https://github.com/PedroHFelix-hub/studies-about-internet.git
-cd studies-about-internet
+https://pedrohfelix-hub.github.io/studies-about-internet/
 ```
 
 Then open `index.html` in your preferred browser.
