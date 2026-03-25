@@ -106,6 +106,8 @@ Then open `index.html` in your preferred browser.
 
 ## 👤 Author
 
+<img width="465" height="630" alt="perfil" src="https://github.com/user-attachments/assets/c3a93f89-e4c4-47a7-be55-0529d9ed2241" />
+
 **Pedro Felix**  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/feed/)
 [![GitHub](https://img.shields.io/badge/GitHub-black?style=flat&logo=github)](https://github.com/PedroHFelix-hub)
