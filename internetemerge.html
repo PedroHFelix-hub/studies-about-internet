@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>INTERNET HISTORY</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo-link">
+            <img src="imgs/logo.svg" alt="Site Logo" class="logo">
+        </a>
+        <div class="sociais">
+            <a href="https://www.linkedin.com/feed/" target="_blank" class="social"><img src="imgs/icone-linkedin.png" alt="Logo do Linkedin"></a>
+            <a href="https://github.com/PedroHFelix-hub" target="_blank" class="social"><img src="imgs/icone-github.png" alt="Logo do GitHub"></a>
+            <a href="https://www.instagram.com/p.felix05/" target="_blank" class="social"><img src="imgs/icone-instagram.png" alt="Logo do Instagram"></a>
+        </div>
+    </header>
+
+    <main>
+        <h1>HOW DID THE INTERNET EMERGE?</h1>
+        <h2><i>STUDENT: Pedro Felix</i></h2>
+
+        <h2>War Context</h2>
+        <p>
+            The internet was born out of the need to connect computers and share information. In the context of the
+            <span>Cold War</span>, the United States Department of Defense created <span>ARPANET</span> in 1969 —
+            a computer network that enabled communication between academic and military institutions. Over time,
+            ARPANET evolved and expanded, eventually giving rise to the internet as we know it today: a global
+            network connecting billions of devices, allowing the exchange of information, communication, and access
+            to a wide range of online services.
+        </p>
+
+        <h2><span>ARPANET</span></h2>
+        <p>
+            Inspired by the launch of the
+            <a href="https://pt.wikipedia.org/wiki/Sputnik-1" target="_blank">Sputnik satellite</a>,
+            scientists developed ARPANET as a way to ensure resilient communication in case of enemy attacks.
+            ARPANET used a technology called <span>packet switching</span>, which divided information into small
+            packets sent through different routes — ensuring communication even if part of the network was compromised.
+        </p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Arpanet_logical_map%2C_march_1977.png"
+             alt="Logical map of ARPANET, March 1977" height="200" style="margin: 20px auto; border-radius: 8px;">
+
+        <p>
+            At that time, communication between computers was still limited, but ARPANET established the foundations
+            for the modern internet. It continued to grow, connecting universities, military units, researchers, and
+            commercial organizations — each running different types of computers, which made communication a major
+            engineering challenge.
+        </p>
+
+        <h2 class="tópics">PROTOCOLS AND COMMUNICATION</h2>
+        <p>
+            To enable connections between different machines, computers had to follow specific communication rules
+            called <span>protocols</span>. ARPANET initially used the <span>NCP (Network Control Protocol)</span>,
+            but it had significant limitations.
+        </p>
+
+        <h2 class="tópics">LIMITATIONS OF NCP</h2>
+        <ul>
+            <li><span>Instability:</span> The protocol was unreliable and prone to failures.</li>
+            <li><span>Lack of Interoperability:</span> It could not communicate with other networks, whether research or commercial.</li>
+            <li><span>Single "Language":</span> NCP worked like a translator that understood only one language, preventing integration with different systems.</li>
+        </ul>
+
+        <h2 class="tópics">SOLUTION — TCP/IP</h2>
+        <ul>
+            <li>Developed by <span>Vinton Cerf</span> and <span>Bob Kahn</span> to overcome NCP's limitations.</li>
+            <li>Introduced universal communication between different networks and systems worldwide.</li>
+            <li>In <span>1983</span>, its adoption officially marked the birth of the modern internet.</li>
+            <li>TCP/IP remains the foundational protocol suite of the internet to this day.</li>
+        </ul>
+
+        <h2 class="tópics">FROM ARPANET TO THE MODERN INTERNET</h2>
+        <ul>
+            <li><span>1969:</span> ARPANET is created with just 4 nodes.</li>
+            <li><span>1971:</span> First email is sent over ARPANET.</li>
+            <li><span>1983:</span> TCP/IP is adopted — the modern internet is born.</li>
+            <li><span>1990:</span> ARPANET is officially shut down after fulfilling its purpose.</li>
+            <li><span>1991:</span> Tim Berners-Lee introduces the World Wide Web (WWW).</li>
+            <li><span>1990s:</span> Dial-up internet spreads to homes using telephone lines and modems.</li>
+            <li><span>2000s:</span> Broadband, Wi-Fi, and mobile networks bring faster and more flexible access.</li>
+            <li><span>Today:</span> Over 5 billion people are connected to the internet globally.</li>
+        </ul>
+    </main>
+
+    <hr class="divisor">
+
+    <nav>
+        <button class="nav"><a href="index.html" class="nav">HOME</a></button>
+        <button class="nav"><a href="webevolution.html" class="nav">INTERNET EVOLUTION</a></button>
+        <button class="nav"><a href="computer and data.html" class="nav">COMPUTER AND DATA</a></button>
+        <button class="nav"><a href="developerroles.html" class="nav">DEVELOPER ROLES</a></button>
+    </nav>
+
+    <div class="tooltip" id="tooltip"></div>
+    <script src="script.js"></script>
+</body>
+</html>
